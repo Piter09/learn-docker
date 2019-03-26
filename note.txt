@@ -5,4 +5,16 @@ start docker service : sudo service docker start
 find service docker : sudo service docker status
 run docker : sudo docker run  "name packet"
 download docker image: sudo docker pull "name packet"
-list download docker image : sudo docker imagesde
+list download docker image : sudo docker images
+default port and -d : sudo docker run -d -p 80 --name "name project" "name docker images"
+interactive terminal : parameters used -i and -t or -it
+listing running docker : sudo docker ps
+stop docker : sudo docker stop "name container" 
+list use  port docker : sudo docker port
+list all docker container runing : sudo docker ps -a
+remove container : sudo docker rm "name container"
+remove docker images : sudo docker rmi "name docker images"
+remove uncomplete download : sudo docker rmi $(sudo docker images -f "dangling=tre" -q
+stop service docker : sudo service docker stop
+restart docker : sudo service docker restart
+
