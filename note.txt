@@ -1,0 +1,8 @@
+docker status 	
+ssh -i "docker.pem" ubuntu@IP
+kernel version : uname -r
+start docker service : sudo service docker start
+find service docker : sudo service docker status
+run docker : sudo docker run  "name packet"
+download docker image: sudo docker pull "name packet"
+list download docker image : sudo docker imagesde
